@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #DFE3E1;
+    background-color: #222f3d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    border-bottom: 2px solid wheat;
+}
+/* .border:hover{
+    border: 1.5px solid white;
+} */
+.navtxt{
+    width: 1000px;
+    height: 30px;
+}
+.nav1{
+    width: 150px;
+    height: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+span{
+    color: #84C08E;
+}
+a{
+    text-decoration: none;
+    color: #84C08E;
+    margin-right: 20px;
+}
+a:hover{
+    color: white;
+}
+.prof{
+    width: 100%;
+    height: 600px;
+    border-bottom: 2px solid wheat;
+    display: flex;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 40%;
+    border: 8px solid #84C08E;
+    margin-left: 100px;
+}
+.info{
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid white; */
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.name{
+    font-size: 60px;
+}
+.button{
+    
+    width: 250px;
+    height: 40px;
+    padding: 5px 10px 5px 10px;
+    background-color: #84C08E;
+    border: none;
+    border-radius: 4px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: medium;
+}
+.icon{
+    margin-top: 40px;
+    font-size: large;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+i{
+    margin-right: 10px;
+}
+h3{
+    margin-top: 5px;
+}
+.heading{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.deti{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-bottom:40px;
+    border-bottom:2px solid wheat ;
+}
+.edu{
+    border: #84C08E 2px solid;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.school{
+    border-top: 1.5px solid #84C08E;
+    margin-top: 10px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px wheat solid;
+}
+.clg{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px wheat solid;
+}
+.clg1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.intern1{
+    border-top: 1.5px solid #84C08E;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid wheat;
+}
+.intern2{
+    
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid wheat;
+}
+.intern3{
+    
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid wheat;
+}
+.proj1{
+    border-top: 1.5px solid #84C08E;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid wheat;
+}
+.proj2{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid wheat;   
+}
+.proj3{
+    padding-top: 10px;
+}
+.h{
+    padding-bottom: 10px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.one{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+.two{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    border-bottom: 2px solid wheat;
+}
+.firsthalf{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    font-size: 25px;
+   
+    padding-left: 20px;
+}
+.di{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.secound{
+    width: 50%;
+    height: 100%;
+    font-size: 26px;
+    padding-left: 60px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    color: white;
+    padding-left: 20px;
+    border: 1.5px solid #84C08E;
+    border-radius: 10px;
+}
+.but{
+    width: 100px;
+    height: 30px;
+    background-color: #84C08E;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.intern4{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;   
+}
